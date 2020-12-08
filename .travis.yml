@@ -1,6 +1,9 @@
 sudo: false
 language: c
 compiler: clang-3.8
+arch:
+ - amd64
+ - ppc64le
 
 env:
   global:
